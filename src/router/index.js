@@ -4,6 +4,7 @@ import Router from 'vue-router'
 // 导入路由组件
 import home from '@/components/home'
 import authors from '@/components/authors'
+import works from '@/components/works'
 
 Vue.use(Router)
 
@@ -25,6 +26,11 @@ export default new Router({
       path: '/authors',
       name: 'authors',
       component: authors
+    },
+    {
+      path: '/works',
+      name: 'works',
+      component: works
     }
   ]
 })
