@@ -5,6 +5,7 @@ import Router from 'vue-router'
 import home from '@/components/home'
 import authors from '@/components/authors'
 import works from '@/components/works'
+import authoritem from '@/components/authoritem'
 
 Vue.use(Router)
 
@@ -31,6 +32,11 @@ export default new Router({
       path: '/works',
       name: 'works',
       component: works
+    },
+    {
+      path: '/authoritem',
+      name: 'authoritem',
+      component: authoritem
     }
   ]
 })

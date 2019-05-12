@@ -1,10 +1,13 @@
 # demo-project
 
-> A Vue.js project
+> 这是一个Vue.js 项目
 
-## Build Setup
+## 项目部署
 
 ``` bash
+请保证以安装git和node.js。没有请自行安装
+git: [下载地址](https://git-scm.com/downloads)
+node.js: [下载地址](https://nodejs.org/en/download/)
 # install dependencies
 npm install
 
